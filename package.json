@@ -1,0 +1,48 @@
+{
+  "name": "simple-kv-store",
+  "version": "0.0.0",
+  "description": "Simple key value store with inmemory, leveldb or kubernetes configmap backend. Not build for speed but ease of use.",
+  "main": "index.js",
+  "scripts": {
+    "build": "export NODE_OPTIONS=--no-experimental-fetch; gulp prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitea.local.schaz.org:schaze/simple-kv-store.git"
+  },
+  "files": [
+    "*"
+  ],
+  "keywords": [
+    "kuberntes",
+    "store",
+    "level"
+  ],
+  "author": {
+    "name": "schaze",
+    "email": "schazet@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "https://npm.local.schaz.org"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node14": "~1.0.0",
+    "@types/node": "~14.17",
+    "gulp": "~4.0.2",
+    "gulp-json-editor": "~2.5.2",
+    "gulp-run": "~1.7.1",
+    "gulp-sourcemaps": "~3.0.0",
+    "gulp-typescript": "~5.0.1",
+    "merge2": "~1.4.1",
+    "tslint": "~5.18.0",
+    "typescript": "~4.4.0"
+  },
+  "dependencies": {
+    "@kubernetes/client-node": "~0.14.0",
+    "async-lock": "~1.2.8",
+    "winston": "~3.3.3",
+    "leveldown": "~5.6.0",
+    "levelup": "~4.4.0"
+  }
+}
