@@ -8,8 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitea.local.schaz.org:schaze/simple-kv-store.git"
+    "url": "https://github.com/schaze/simple-kv-store.git"
   },
+  "homepage": "https://github.com/schaze/simple-kv-store#README.md",
   "files": [
     "*"
   ],
@@ -21,9 +22,6 @@
   "author": {
     "name": "schaze",
     "email": "schazet@gmail.com"
-  },
-  "publishConfig": {
-    "registry": "https://npm.local.schaz.org"
   },
   "license": "MIT",
   "devDependencies": {
